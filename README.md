@@ -1,24 +1,27 @@
-# Image-caption-generator
+# PostCSS
 
+<img align="right" width="95" height="95"
+     alt="Philosopher’s stone, logo of PostCSS"
+     src="https://postcss.org/logo.svg">
 
+PostCSS is a tool for transforming styles with JS plugins.
+These plugins can lint your CSS, support variables and mixins,
+transpile future CSS syntax, inline images, and more.
 
-output  http://127.0.0.1:5173/
+PostCSS is used by industry leaders including Wikipedia, Twitter, Alibaba,
+and JetBrains. The [Autoprefixer] and [Stylelint] PostCSS plugins are some of the most popular CSS tools.
 
+---
 
+<img src="https://cdn.evilmartians.com/badges/logo-no-label.svg" alt="" width="22" height="16" />  PostCSS is built by <b><a href="https://evilmartians.com/">Evil Martians</a></b>, an American design and engineering consultancy for <b>developer tools, AI, and cybersecurity startups</b>.
 
-# React + Vite
+---
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+[Abstract Syntax Tree]: https://en.wikipedia.org/wiki/Abstract_syntax_tree
+[Evil Martians]: https://evilmartians.com/?utm_source=postcss
+[Autoprefixer]: https://github.com/postcss/autoprefixer
+[Stylelint]: https://stylelint.io/
+[plugins]: https://github.com/postcss/postcss#plugins
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Docs
+Read full docs **[here](https://postcss.org/)**.
